@@ -1,0 +1,47 @@
+.sidebar {
+  width: 80px;
+  height: 100vh;
+  background-color: #1e3a8a;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* pushes bottom icon down */
+  padding-top: 60px; /* space for header */
+}
+
+.icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.icon-link:hover {
+  background-color: #2c5282;
+}
+
+.active {
+  background-color: #2c5282;
+}
+.bottom-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+}
+.sidebar-logo-container {
+  position: absolute; /* Stick to the very corner */
+  top: 0px; /* adjust for how close you want */
+  left: 0px;
+}
+
+.sidebar-logo {
+  width: 80px; /* same size or slightly bigger than icons */
+  height: 60px;
+}

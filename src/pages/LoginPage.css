@@ -1,0 +1,59 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f7faff;
+}
+
+.login-form {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;/* space between logo and text */
+  transform: translateX(-14px);
+}
+
+.login-logo {
+  width: 40px;
+  height: auto;
+  transform: translateX(-3px);
+}
+
+.login-form h2 {
+  margin: 0; /* remove extra gap since we're controlling spacing */
+  font-size: 1.5rem;
+}
+
+.login-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.login-form button {
+  padding: 10px;
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
