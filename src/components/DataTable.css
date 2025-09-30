@@ -84,3 +84,12 @@
   font-size: 1.2rem;          /* Slightly larger header text */
   font-weight: 600;
 }
+.error-banner {
+  margin-bottom: 12px;
+  padding: 10px 14px;
+  background: #ffecec;
+  color: #c00;
+  border: 1px solid #f5b5b5;
+  border-radius: 6px;
+  text-align: center;
+}
